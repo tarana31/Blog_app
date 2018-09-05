@@ -4,8 +4,8 @@ require './models/user.rb'
 require 'bundler/setup'          # ensures you're loading gems defined in the gemfile
 require 'sinatra/flash'             # loads sinatra flash
 
-set :database, 'sqlite3:nycda_831.sqlite3'
-configure(:development){set :database, "sqlite3:blog.sqlite3"}
+# set :database, 'sqlite3:nycda_831.sqlite3'
+configure(:development){set :database, "sqlite3:nycda_831.sqlite3"}
 enable :sessions
 
 
